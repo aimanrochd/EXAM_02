@@ -5,7 +5,7 @@ int main(int argc, char **argv)
 	{
 		int	ascii[255] = {0};
 		
-		for (int i = 1; i < 3; i += 1)
+		for (int i = 1; i < 3; i++)
 		{
 			int j = 0;
 			while (argv[i][j])
